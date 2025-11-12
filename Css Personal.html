@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster University Student Hub</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #e9f2fb;
+            color: #2e2e2e;
+        }
+
+        header {
+            background-color: #2b4db8;
+            color: #fff;
+            text-align: center;
+            padding: 30px 10px;
+            background-image: linear-gradient(135deg, #2b4db8, #6b5fd2);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            margin-top: 8px;
+            color: #d9e6ff;
+        }
+
+        nav {
+            background-color: #1f2c73;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #3c52c4;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(43,77,184,0.6), rgba(43,77,184,0.6)),
+                        url("https://i.pinimg.com/originals/f5/09/44/f50944f8c4c2df63d8f776d2c1e2d02a.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            color: #eaf1ff;
+        }
+
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            padding: 40px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            padding: 25px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-top: 5px solid #4cbf7d;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            color: #2b4db8;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #1f2c73;
+            color: #c8d6ff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        a {
+            color: #4cbf7d;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Monster University Student Hub</h1>
+        <p>Scaring up success one student at a time!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#resources">Study Resources</a>
+        <a href="#events">Campus Events</a>
+        <a href="#clubs">Student Clubs</a>
+        <a href="#forum">Discussion Forum</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to Monster University</h1>
+        <p>Where learning is monstrously fun and community is everything!</p>
+    </section>
+
+    <section class="sections">
+        <div class="card" id="about">
+            <h3>About Us</h3>
+            <p>!</p>
+        </div>
+
+        <div class="card" id="resources">
+            <h3>Study Resources</h3>
+            <p>!</p>
+        </div>
+
+        <div class="card" id="events">
+            <h3>Campus Events</h3>
+            <p>!</p>
+        </div>
+
+        <div class="card" id="clubs">
+            <h3>Student Clubs</h3>
+            <p></p>
+        </div>
+
+        <div class="card" id="forum">
+            <h3>Discussion Forum</h3>
+            <p></p>
+        </div>
+
+        <div class="card" id="contact">
+            <h3>Contact</h3>
+            <p>Need help or have an idea? Email us at <a href="mailto:mu-studenthub@monsteruniversity.edu">mu-studenthub@monsteruniversity.edu</a> or visit us in the Monster Center, Room 13.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Monster University Student Hub | “We Scare Because We Care.”</p>
+    </footer>
+
+</body>
+</html>
+
